@@ -40,3 +40,5 @@ def get_word(transitions, word="", current="^"):
   word += next_letter
   return get_word(transitions, word, next_letter)
 
+if __name__ == "__main__":
+    main()
